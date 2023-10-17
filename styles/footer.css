@@ -1,0 +1,28 @@
+.rodape{
+    background-color: #1d5b7c;
+    padding: 2em;
+}
+
+.rodape__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.rodape__logo img{
+    margin-bottom: 0.3em;
+}
+
+.rodape__titulo{
+    font-family: var(--fonte-titulo);
+    color: #ffffff;
+}
+
+.rodape__descricao{
+    font-size: var(--fonte-texto);
+    text-align: center;
+    margin-top: 0.5em;
+    color: #ffffff;
+    font-size: 12px;
+}
