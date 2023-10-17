@@ -1,7 +1,7 @@
 .cabecalho{
     display: flex;
     justify-content: space-between;
-    background-color: #095075;
+    background-color: #1d5b7c;
     color: #ffffff;
     font-family: var(--fonte-principal);
 }
@@ -10,16 +10,19 @@
     display: flex;
     text-align: center;
     align-items: center;
-    gap: 1em;
+    gap: 0.3em;
 }
 
 .cabecalho img{
     width: 2.5em;
     padding: 0.3em;
+    margin-bottom: 0.2em;
 }
 
 .cabecalho h2{
     color: #ffffff;
+    margin-bottom: 0.2em;
+    margin-right: 0.5em;
 }
 
 .cabecalho__ld{
@@ -35,6 +38,7 @@
     color: #ffffff;
     text-decoration: none;
     padding: 0.5em;
+    border: 1.5px solid #ffffff;
     border-radius: 5px;
 }
 

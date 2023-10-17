@@ -1,0 +1,33 @@
+.card{
+    background-color: #0474fb;
+    text-align: center;
+    padding: 2.5em;
+}
+
+
+.card__titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 1em;
+}
+
+.card__botao-star{
+    background-color: #ffffff;
+    padding: 0.8em 1.5em;
+    text-decoration: none;
+    font-family: var(--fonte-texto);
+    color: #1d5b7c;
+    font-size: 24px;
+}
+
+.card__descricao {
+    margin: 1.5em 0;
+    font-family: var(--fonte-texto);
+    color: #ffffff;
+}
+
+.card__botao-star:hover{
+    background-color: #d1def5;
+}
+
